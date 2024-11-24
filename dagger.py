@@ -8,6 +8,7 @@ from imitation.policies.serialize import load_policy
 from imitation.util.util import make_vec_env
 import tempfile
 
+
 # Environnement et Expert
 def setup_environment(env_name="CartPole-v1", expert_name="ppo-huggingface", org="HumanCompatibleAI"):
     """
